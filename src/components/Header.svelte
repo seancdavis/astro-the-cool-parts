@@ -6,10 +6,7 @@
 
 <style>
   header {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    margin: 0 auto 3rem;
+    margin: 0 auto 6rem;
     max-width: min(100%, 68ch);
   }
 </style>
