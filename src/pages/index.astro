@@ -1,5 +1,6 @@
 ---
 import FunFact from '../components/FunFact.jsx'
+import Header from '../components/Header.svelte'
 
 let title = 'Astro: The Cool Parts';
 ---
@@ -13,14 +14,6 @@ let title = 'Astro: The Cool Parts';
     <link rel="stylesheet" href="/style/home.css">
 
     <style>
-      header {
-        display: flex;
-        flex-direction: column;
-        gap: 1em;
-        margin: 0 auto 3rem;
-        max-width: min(100%, 68ch);
-      }
-
       main {
         margin: 0 auto;
         max-width: 42rem;
@@ -28,11 +21,7 @@ let title = 'Astro: The Cool Parts';
     </style>
   </head>
   <body>
-    <header>
-      <div>
-        <h1>🚀 Rocket Fun Facts 🚀</h1>
-      </div>
-    </header>
+    <Header />
 
     <main>
       <FunFact
