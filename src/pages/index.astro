@@ -29,7 +29,7 @@ const facts = await response.json();
     <Header />
 
     <main>
-      <FunFactList facts={facts} />
+      <FunFactList facts={facts} client:visible />
     </main>
   </body>
 </html>
