@@ -1,40 +1,17 @@
-# Welcome to [Astro](https://astro.build)
+# Astro: The Cool Parts
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+This project was built to support a LogRocket blog post with the same title. See the post for more information on what's going on here.
 
-## 🚀 Project Structure
+If you have questions or comments, [bug me on Twitter](https://twitter.com/seancdavis29) or [create a new issue](https://github.com/seancdavis/astro-the-cool-parts/issues/new) in this repo.
 
-Inside of your Astro project, you'll see the following folders and files:
+## Running Locally
 
-```
-/
-├── public/
-│   ├── robots.txt
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   │   └── Tour.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+To get this project up, first clone it, then install dependencies:
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+    npm install
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+And start the development server:
 
-Any static assets, like images, can be placed in the `public/` directory.
+    npm start
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command         | Action                                      |
-|:----------------|:--------------------------------------------|
-| `npm install`   | Installs dependencies                       |
-| `npm start`     | Starts local dev server at `localhost:3000` |
-| `npm run build` | Build your production site to `./dist/`     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://github.com/snowpackjs/astro) or jump into our [Discord server](https://astro.build/chat).
+Open your browser and everything should be running properly at localhost:3000.
