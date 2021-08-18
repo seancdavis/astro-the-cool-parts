@@ -1,4 +1,4 @@
-# Astro: The Cool Parts
+# 🚀 Astro: The Cool Parts
 
 This project was built to support a LogRocket blog post with the same title. See the post for more information on what's going on here.
 
